@@ -1,0 +1,13 @@
+{
+    "name": "varloteaux/j-query",
+    "type": "jquery",
+    "require": {
+        "components/jquery": "^3.3"
+    },
+    "authors": [
+        {
+            "name": "Lucile varloteaux",
+            "email": "varloteaux.lucile@gmail.com"
+        }
+    ]
+}
