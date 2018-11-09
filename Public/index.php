@@ -5,50 +5,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
-    <title>Hello, world!</title>
+    <title>Carrousel JQuery :</title>
 </head>
 <body>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="picture d-block w-100" src="https://www.fulcrumgallery.com/product-images/P918366-10/elephant.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-            <img class="picture d-block w-100" src="https://www.fulcrumgallery.com/product-images/P918362-10/bear.jpg"alt="Second slide">
-        </div>
-        <div class="carousel-item">
-            <img class="picture d-block w-100" src="http://www.art-spire.com/wp-content/gallery/2014/Avril_2014/17-04-14_Wahyu_Romdhoni/Wahyu_Romdhoni_08.jpg" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-            <img class="picture d-block w-100" src="https://www.arthundweise.de/wp-content/uploads/2018/06/Zoo-Arche-Noah.png" alt="Third slide">
-        </div>
+<div id="container" class="container">
+    <div class="slideshow">
+        <ul>
+            <li>
+                <img class="picture d-block w-100"
+                     src="https://www.fulcrumgallery.com/product-images/P918362-10/bear.jpg"
+                     alt="Second slide">
+            </li>
+            <li>
+                <img class="picture d-block w-100"
+                     src="https://www.fulcrumgallery.com/product-images/P918366-10/elephant.jpg" alt="First slide">
+            </li>
+            <li>
+                <img class="picture d-block w-100"
+                     src="http://www.art-spire.com/wp-content/gallery/2014/Avril_2014/17-04-14_Wahyu_Romdhoni/Wahyu_Romdhoni_08.jpg"
+                     alt="Third slide">
+            </li>
+            <li>
+                <img class="picture d-block w-100"
+                     src="https://www.arthundweise.de/wp-content/uploads/2018/06/Zoo-Arche-Noah.png" alt="Third slide">
+            </li>
+        </ul>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+
+    <div id="fleche_gauche" class="fleche_gauche"></div>
+    <div id="fleche_droite" class="fleche_droite"></div>
 </div>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="JS/jQuery.js"></script>
 </body>
 </html>
-        <li><img  /></li>
-        <li><img  /></li>
-        <li><img  /></li>
+<li><img/></li>
+<li><img/></li>
+<li><img/></li>
