@@ -33,14 +33,18 @@
         </ul>
     </div>
 
-    <div id="fleche_gauche" class="fleche_gauche"></div>
-    <div id="fleche_droite" class="fleche_droite"></div>
+    <div>
+        <img id="fleche_gauche" class="fleche_gauche"
+             src="https://image.flaticon.com/icons/svg/118/118739.svg" alt="Third slide">
+    </div>
+    <div>
+        <img id="fleche_droite" class="fleche_droite"
+             src="https://image.flaticon.com/icons/svg/118/118740.svg" alt="Third slide">
+    </div>
+
 </div>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="JS/jQuery.js"></script>
 </body>
 </html>
-<li><img/></li>
-<li><img/></li>
-<li><img/></li>
